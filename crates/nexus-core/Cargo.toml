@@ -1,0 +1,12 @@
+[package]
+name = "nexus-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Nexus Core: Software sources, mirrors, PPA feeds, policy scheduler, GPG/Ed25519 trust store, drivers, and dynamic updater"
+
+[dependencies]
+
+[features]
+default = ["std"]
+std = []

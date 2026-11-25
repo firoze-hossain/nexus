@@ -1,0 +1,15 @@
+[package]
+name = "nexus-ui"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Nexus UI: Interactive state machine for all 7 Software & Updates tabs plus the Software Updater modal dialog"
+
+[dependencies]
+nexus-core = { path = "../nexus-core" }
+nexus-storage = { path = "../nexus-storage" }
+nexus-render = { path = "../nexus-render" }
+
+[features]
+default = ["std"]
+std = []

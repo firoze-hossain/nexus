@@ -1,0 +1,13 @@
+[package]
+name = "nexus-render"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Nexus Render: Pure 2D software double-buffered vector rasterizer for Software & Updates and Software Updater"
+
+[dependencies]
+nexus-core = { path = "../nexus-core" }
+
+[features]
+default = ["std"]
+std = []

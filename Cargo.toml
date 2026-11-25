@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "crates/nexus-core",
+    "crates/nexus-storage",
+    "crates/nexus-render",
+    "crates/nexus-ui",
+    "crates/nexus-app",
+]
+resolver = "2"

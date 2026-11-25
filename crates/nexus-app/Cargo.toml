@@ -1,0 +1,12 @@
+[package]
+name = "nexus-app"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Nexus App: Native cross-platform CLI runner and autonomous qualification test suite"
+
+[dependencies]
+nexus-core = { path = "../nexus-core" }
+nexus-storage = { path = "../nexus-storage" }
+nexus-render = { path = "../nexus-render" }
+nexus-ui = { path = "../nexus-ui" }

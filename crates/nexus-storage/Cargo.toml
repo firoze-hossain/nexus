@@ -1,0 +1,13 @@
+[package]
+name = "nexus-storage"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Nexus Storage: JSON/TOML disk persistence for package channels, mirror lists, PPA feeds, and update policies"
+
+[dependencies]
+nexus-core = { path = "../nexus-core" }
+
+[features]
+default = ["std"]
+std = []
